@@ -10,7 +10,7 @@ This repository contains classifier scripts run on pan-cancer cohorts and docume
 
 ## 📖 Documentation
 
-To View the full documentation: **[Finding_eML Docs]**
+To View the full documentation: **Finding_eML**
 
 -> Decompress the file and follow the path as below
 
