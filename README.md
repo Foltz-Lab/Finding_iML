@@ -56,8 +56,6 @@ Classifier with batch correction accounting for data source and sequencing chemi
 `03_classifier_buildandclassifyquery_batch_none_Xing_et_al.py`  
 Classifier applied without batch correction for the Xing et al. cohort.
 
-> **Note on naming:** Within scripts, dataset names and author names are used interchangeably — Netskar et al. data may appear as `malmberg` or `malm`; Xing et al. data may appear as `fan`.
-
 ---
 
 ## 📂 Cohort analysis scripts
