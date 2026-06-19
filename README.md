@@ -4,7 +4,7 @@
 ![scRNA-seq](https://img.shields.io/badge/analysis-scRNA--seq-purple)
 ![NK cells](https://img.shields.io/badge/cell%20type-NK%20cells-teal)
 ![pan-cancer](https://img.shields.io/badge/scope-pan--cancer-orange)
-![Machine Learning](https://img.shields.io/badge/method-machine%20learning-grey)
+![Machine Learning](https://img.shields.io/badge/method-machine%20learning-yellow)
 
 Code repository for the paper:
 > **Memory-like NK cells naturally occur in healthy individuals and are enriched within solid tumors**
@@ -105,4 +105,6 @@ The `scripts/` directory contains per-cohort downstream analysis pipelines:
 | `PBMC_combined/` | Combined PBMC cohort analysis |
 | `Pan_cancer_combined/` | Pan-cancer integrated cohort analysis |
 
-> **Note on naming:** Within scripts, dataset names and author names are used interchangeably — Netskar et al. data may appear as `malmberg` or `malm`; Xing et al. data may appear as `fan`. Additionally, iML are referred to as `eML` in some scripts.
+---
+
+**Note on naming:** Within scripts, dataset names and author names are used interchangeably — Netskar et al. data may appear as `malmberg` or `malm`; Xing et al. data may appear as `fan`. Additionally, iML are referred to as `eML` in some scripts.
