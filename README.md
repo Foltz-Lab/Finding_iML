@@ -28,7 +28,7 @@ start Finding_eML/docs/_build/html/index.html
 
 Classifier scripts - Docker - `evelyns2000/foltz_tools:classifier2024`
 
-Package Docker - `veda504/finding_eml:v1.1`
+Finding eML(iML) Package Docker - `veda504/finding_eml:v1.1`
 
 All jupyter notebook scripts are written in Python. The version used depends on the libraries involved:
 
@@ -106,4 +106,6 @@ The `scripts/` directory contains per-cohort downstream analysis pipelines:
 | `Pan_cancer_combined/` | Pan-cancer integrated cohort analysis |
 | `PBMC_combined/` | Combined PBMC cohort analysis |
 
-> **Note on naming:** Within scripts, dataset names and author names are used interchangeably — Netskar et al. data may appear as `malmberg` or `malm`; Xing et al. data may appear as `fan`.
+---
+
+**Note on naming:** Within scripts, dataset names and author names are used interchangeably — Netskar et al. data may appear as `malmberg` or `malm`; Xing et al. data may appear as `fan`. Additionally, iML are called eML in some scripts.
