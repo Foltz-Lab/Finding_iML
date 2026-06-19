@@ -75,7 +75,7 @@ README.md
 
 ## 🔬 Classifier scripts
 
-The `classifier_scripts/` directory contains the core ML classifiers, each tailored to a specific cohort's batch correction strategy.
+The `classifier_scripts/` directory contains the core ML classifier scripts, each tailored to a specific cohort's batch correction strategy.
 
 **01 — Netskar et al.**  
 `01_classifier_buildandclassifyquery_batch_dataset_v2_Netskar_et_al.py`  
