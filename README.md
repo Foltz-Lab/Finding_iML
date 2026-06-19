@@ -48,7 +48,7 @@ start Finding_eML/docs/_build/html/index.html
 | 3.10.14 | `marsilea`, `pydeseq2` |
 | 3.12.12 | `hucira` |
 
-**📊 R scripts** — version `4.5.2` · Docker: `kaushalmadhurima/scrna_multiome`
+**📊 R scripts** — version `4.5.2` / Docker: `kaushalmadhurima/scrna_multiome`
 
 ---
 
