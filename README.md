@@ -38,7 +38,6 @@ All scripts are written in Python. The version used depends on the libraries inv
 
 ## 🗂 Repository structure
 
----
 
 ## 🔬 Classifier scripts
 
