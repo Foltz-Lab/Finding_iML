@@ -1,7 +1,10 @@
 #Protein imputation - PBMC subsetted malmberg data with batch as dataset_v2 unique variables
+#Docker used - evelyns2000/foltz_tools:classifier2024 
+
 #!/usr/bin/env python
 # coding: utf-8
 #https://docs.scvi-tools.org/en/1.0.0/tutorials/notebooks/scarches_scvi_tools.html#impute-protein-data-for-query-and-visualize
+
 import warnings
 warnings.simplefilter(action='ignore', category=FutureWarning)
 warnings.simplefilter(action='ignore', category=UserWarning)

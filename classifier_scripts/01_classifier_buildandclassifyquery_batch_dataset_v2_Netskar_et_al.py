@@ -1,4 +1,7 @@
 #Implementation of Machine learning classifier on Netskar et al., data with dataset_v2 as batch 
+#Docker used - evelyns2000/foltz_tools:classifier2024 
+#classifier script - https://www.science.org/doi/abs/10.1126/sciimmunol.adk4893
+
 # # input your variables below:
 patient = "pan_cancer"
 protein = False
