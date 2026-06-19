@@ -13,16 +13,13 @@ Classifier scripts and cohort analysis pipelines for identifying and analyzing m
 
 ---
 
-## 📖 Documentation
+## 📖 Package Documentation
 
 Full documentation is included as `Finding_eML.zip`. Decompress the archive and open the local HTML docs:
 
 ```bash
 # macOS
 open Finding_eML/docs/_build/html/index.html
-
-# Linux
-xdg-open Finding_eML/docs/_build/html/index.html
 
 # Windows
 start Finding_eML/docs/_build/html/index.html
@@ -36,8 +33,8 @@ start Finding_eML/docs/_build/html/index.html
 
 | Used for | Image |
 |----------|-------|
-| Classifier scripts | `evelyns2000/foltz_tools:classifier2024` |
 | Finding eML / iML package | `veda504/finding_eml:v1.1` |
+| Classifier scripts | `evelyns2000/foltz_tools:classifier2024` |
 | R scripts (scRNA / multiome) | `kaushalmadhurima/scrna_multiome` |
 
 **🐍 Python — Jupyter notebook scripts**
@@ -45,8 +42,8 @@ start Finding_eML/docs/_build/html/index.html
 | Python version | Used for |
 |----------------|----------|
 | 3.9.6 | Most scripts (default) |
-| 3.10.14 | `marsilea`, `pydeseq2` |
-| 3.12.12 | `hucira` |
+| 3.10.14 | `Marsilea`, `PyDESeq2` |
+| 3.12.12 | `huCIRA` |
 
 **📊 R scripts** — version `4.5.2` / Docker: `kaushalmadhurima/scrna_multiome`
 
