@@ -104,4 +104,4 @@ The `scripts/` directory contains per-cohort downstream analysis pipelines:
 
 ---
 
-💡 ** Note on naming:** Within scripts, dataset names and author names are used interchangeably — Netskar et al. data may appear as `malmberg` or `malm`; Xing et al. data may appear as `fan`. Additionally, iML are referred to as `eML` in some scripts.
+💡 **Note on naming:** Within scripts, dataset names and author names are used interchangeably — Netskar et al. data may appear as `malmberg` or `malm`; Xing et al. data may appear as `fan`. Additionally, iML are referred to as `eML` in some scripts.
