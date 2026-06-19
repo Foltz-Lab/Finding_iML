@@ -34,7 +34,7 @@ README.md
 
 ---
 
-## 📖 Package Documentation
+## 📖 Package Documentation - iML/eML
 
 Full documentation is included as `Finding_eML.zip`. Decompress the archive and open the local HTML docs:
 
@@ -48,7 +48,7 @@ start Finding_eML/docs/_build/html/index.html
 
 ---
 
-## ⚙️ Requirements
+## ⚙️ Requirements for scripts
 
 **🐳 Docker images**
 
