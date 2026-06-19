@@ -40,27 +40,27 @@ All scripts are written in Python. The version used depends on the libraries inv
 
 classifier_scripts/
 
-01_classifier_buildandclassifyquery_batch_dataset_v2_Netskar_et_al.py
+-> 01_classifier_buildandclassifyquery_batch_dataset_v2_Netskar_et_al.py
 
-02_classifier_buildandclassifyquery_batch_datasource_chemistry_Ding_et_al.py
+-> 02_classifier_buildandclassifyquery_batch_datasource_chemistry_Ding_et_al.py
 
-03_classifier_buildandclassifyquery_batch_none_Xing_et_al.py
+-> 03_classifier_buildandclassifyquery_batch_none_Xing_et_al.py
 
 scripts/
 
-bulk_ATAC_seq/
+-> bulk_ATAC_seq/
 
-Cohort1_Netskar_et_al/
+-> Cohort1_Netskar_et_al/
 
-Cohort2_Ding_et_al/
+-> Cohort2_Ding_et_al/
 
-Cohort3_SI_CIML/
+-> Cohort3_SI_CIML/
 
-Cohort4_Xing_et_al/
+-> Cohort4_Xing_et_al/
 
-Pan_cancer_combined/
+-> PBMC_combined/
 
-PBMC_combined/
+-> Pan_cancer_combined/
 
 Finding_eML.zip       ← full documentation archive
 
