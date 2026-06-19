@@ -1,5 +1,11 @@
 # Finding_iML
 
+![Python](https://img.shields.io/badge/Python-3.9%20|%203.10%20|%203.12-blue)
+![scRNA-seq](https://img.shields.io/badge/analysis-scRNA--seq-purple)
+![NK cells](https://img.shields.io/badge/cell%20type-NK%20cells-teal)
+![pan-cancer](https://img.shields.io/badge/scope-pan--cancer-orange)
+![Machine Learning](https://img.shields.io/badge/method-machine%20learning-grey)
+
 Code repository for the paper:
 > **Memory-like NK cells naturally occur in healthy individuals and are enriched within solid tumors**
 
@@ -26,11 +32,15 @@ start Finding_eML/docs/_build/html/index.html
 
 ## ⚙️ Requirements
 
-Classifier scripts - Docker - `evelyns2000/foltz_tools:classifier2024`
+**🐳 Docker images**
 
-Finding eML(iML) Package Docker - `veda504/finding_eml:v1.1`
+| Used for | Image |
+|----------|-------|
+| Classifier scripts | `evelyns2000/foltz_tools:classifier2024` |
+| Finding eML / iML package | `veda504/finding_eml:v1.1` |
+| R scripts (scRNA / multiome) | `kaushalmadhurima/scrna_multiome` |
 
-All jupyter notebook scripts are written in Python. The version used depends on the libraries involved:
+**🐍 Python — Jupyter notebook scripts**
 
 | Python version | Used for |
 |----------------|----------|
@@ -38,39 +48,28 @@ All jupyter notebook scripts are written in Python. The version used depends on 
 | 3.10.14 | `marsilea`, `pydeseq2` |
 | 3.12.12 | `hucira` |
 
-R scripts - version - 4.5.2/ Docker- `kaushalmadhurima/scrna_multiome`
+**📊 R scripts** — version `4.5.2` · Docker: `kaushalmadhurima/scrna_multiome`
 
 ---
 
 ## 🗂 Repository structure
 
+```
 classifier_scripts/
-
--> 01_classifier_buildandclassifyquery_batch_dataset_v2_Netskar_et_al.py
-
--> 02_classifier_buildandclassifyquery_batch_datasource_chemistry_Ding_et_al.py
-
--> 03_classifier_buildandclassifyquery_batch_none_Xing_et_al.py
-
+    01_classifier_buildandclassifyquery_batch_dataset_v2_Netskar_et_al.py
+    02_classifier_buildandclassifyquery_batch_datasource_chemistry_Ding_et_al.py
+    03_classifier_buildandclassifyquery_batch_none_Xing_et_al.py
 scripts/
-
--> bulk_ATAC_seq/
-
--> Cohort1_Netskar_et_al/
-
--> Cohort2_Ding_et_al/
-
--> Cohort3_SI_CIML/
-
--> Cohort4_Xing_et_al/
-
--> PBMC_combined/
-
--> Pan_cancer_combined/
-
+    bulk_ATAC_seq/
+    Cohort1_Netskar_et_al/
+    Cohort2_Ding_et_al/
+    Cohort3_SI_CIML/
+    Cohort4_Xing_et_al/
+    PBMC_combined/
+    Pan_cancer_combined/
 Finding_eML.zip       ← full documentation archive
-
 README.md
+```
 
 ---
 
@@ -103,9 +102,7 @@ The `scripts/` directory contains per-cohort downstream analysis pipelines:
 | `Cohort2_Ding_et_al/` | Cohort 2 analysis — Ding et al. |
 | `Cohort3_SI_CIML/` | Cohort 3 analysis — SI CIML |
 | `Cohort4_Xing_et_al/` | Cohort 4 analysis — Xing et al. |
-| `Pan_cancer_combined/` | Pan-cancer integrated cohort analysis |
 | `PBMC_combined/` | Combined PBMC cohort analysis |
+| `Pan_cancer_combined/` | Pan-cancer integrated cohort analysis |
 
----
-
-**Note on naming:** Within scripts, dataset names and author names are used interchangeably — Netskar et al. data may appear as `malmberg` or `malm`; Xing et al. data may appear as `fan`. Additionally, iML are called eML in some scripts.
+> **Note on naming:** Within scripts, dataset names and author names are used interchangeably — Netskar et al. data may appear as `malmberg` or `malm`; Xing et al. data may appear as `fan`. Additionally, iML are referred to as `eML` in some scripts.
