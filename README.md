@@ -9,7 +9,28 @@
 Code repository for the paper:
 > **Memory-like NK cells naturally occur in healthy individuals and are enriched within solid tumors**
 
-Classifier scripts and cohort analysis pipelines for identifying and analyzing memory-like (ML) NK cells using machine learning.
+Package documentation, classifier scripts and cohort analysis pipelines for identifying and analyzing memory-like (ML) NK cells using machine learning.
+
+---
+
+## 🗂 Repository structure
+
+```
+classifier_scripts/
+    01_classifier_buildandclassifyquery_batch_dataset_v2_Netskar_et_al.py
+    02_classifier_buildandclassifyquery_batch_datasource_chemistry_Ding_et_al.py
+    03_classifier_buildandclassifyquery_batch_none_Xing_et_al.py
+scripts/
+    bulk_ATAC_seq/
+    Cohort1_Netskar_et_al/
+    Cohort2_Ding_et_al/
+    Cohort3_SI_CIML/
+    Cohort4_Xing_et_al/
+    PBMC_combined/
+    Pan_cancer_combined/
+Finding_eML.zip       ← full package documentation archive
+README.md
+```
 
 ---
 
@@ -46,27 +67,6 @@ start Finding_eML/docs/_build/html/index.html
 | 3.12.12 | `huCIRA` |
 
 **📊 R scripts** — version `4.5.2` / Docker: `kaushalmadhurima/scrna_multiome`
-
----
-
-## 🗂 Repository structure
-
-```
-classifier_scripts/
-    01_classifier_buildandclassifyquery_batch_dataset_v2_Netskar_et_al.py
-    02_classifier_buildandclassifyquery_batch_datasource_chemistry_Ding_et_al.py
-    03_classifier_buildandclassifyquery_batch_none_Xing_et_al.py
-scripts/
-    bulk_ATAC_seq/
-    Cohort1_Netskar_et_al/
-    Cohort2_Ding_et_al/
-    Cohort3_SI_CIML/
-    Cohort4_Xing_et_al/
-    PBMC_combined/
-    Pan_cancer_combined/
-Finding_eML.zip       ← full package documentation archive
-README.md
-```
 
 ---
 
