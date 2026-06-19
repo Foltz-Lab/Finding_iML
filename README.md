@@ -26,13 +26,19 @@ start Finding_eML/docs/_build/html/index.html
 
 ## ⚙️ Requirements
 
-All scripts are written in Python. The version used depends on the libraries involved:
+Classifier scripts - Docker - `evelyns2000/foltz_tools:classifier2024`
+
+Package Docker - `veda504/finding_eml:v1.1`
+
+All jupyter notebook scripts are written in Python. The version used depends on the libraries involved:
 
 | Python version | Used for |
 |----------------|----------|
 | 3.9.6 | Most scripts (default) |
 | 3.10.14 | `marsilea`, `pydeseq2` |
 | 3.12.12 | `hucira` |
+
+R scripts - version - 4.5.2/ Docker- `kaushalmadhurima/scrna_multiome`
 
 ---
 
