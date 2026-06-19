@@ -64,7 +64,7 @@ scripts/
     Cohort4_Xing_et_al/
     PBMC_combined/
     Pan_cancer_combined/
-Finding_eML.zip       ← full documentation archive
+Finding_eML.zip       ← full package documentation archive
 README.md
 ```
 
