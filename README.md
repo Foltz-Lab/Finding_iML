@@ -1,10 +1,10 @@
 # Finding_iML
-[![Documentation](https://readthedocs.org/projects/finding-eml/badge/?version=latest)](https://finding-eml.readthedocs.io)
 ![Python](https://img.shields.io/badge/Python-3.9%20|%203.10%20|%203.12-blue)
 ![scRNA-seq](https://img.shields.io/badge/analysis-scRNA--seq-purple)
 ![NK cells](https://img.shields.io/badge/cell%20type-NK%20cells-teal)
 ![pan-cancer](https://img.shields.io/badge/scope-pan--cancer-orange)
 ![Machine Learning](https://img.shields.io/badge/method-machine%20learning-yellow)
+[![Documentation](https://readthedocs.org/projects/finding-eml/badge/?version=latest)](https://finding-eml.readthedocs.io)
 
 Code repository for the paper:
 > **Memory-like NK cells naturally occur in healthy individuals and are enriched within solid tumors**
@@ -35,7 +35,7 @@ README.md
 ---
 
 ## 📖 Package Documentation - iML/eML
-Full documentation is hosted online and always up to date:
+Full documentation is hosted online:
 
 📄 **[https://finding-eml.readthedocs.io](https://finding-eml.readthedocs.io)**
 
