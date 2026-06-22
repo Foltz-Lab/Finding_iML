@@ -4,7 +4,6 @@
 ![NK cells](https://img.shields.io/badge/cell%20type-NK%20cells-teal)
 ![pan-cancer](https://img.shields.io/badge/scope-pan--cancer-orange)
 ![Machine Learning](https://img.shields.io/badge/method-machine%20learning-yellow)
-[![Documentation](https://readthedocs.org/projects/finding-eml/badge/?version=latest)](https://finding-eml.readthedocs.io)
 
 Code repository for the paper:
 > **Memory-like NK cells naturally occur in healthy individuals and are enriched within solid tumors**
