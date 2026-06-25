@@ -42,14 +42,6 @@ Full documentation is hosted online:
 
 ## ⚙️ Requirements for scripts
 
-**🐳 Docker images**
-
-| Used for | Image |
-|----------|-------|
-| Finding eML / iML package | `veda504/finding_eml:v1.1` |
-| Classifier scripts | `evelyns2000/foltz_tools:classifier2024` |
-| R scripts (scRNA / multiome) | `kaushalmadhurima/scrna_multiome` |
-
 **🐍 Python — Jupyter notebook scripts**
 
 | Python version | Used for |
@@ -60,9 +52,17 @@ Full documentation is hosted online:
 
 **📊 R scripts** — local version `4.5.2` / Docker: `kaushalmadhurima/scrna_multiome`
 
+**🐳 Docker images**
+
+| Used for | Image |
+|----------|-------|
+| Finding eML / iML package | `veda504/finding_eml:v1.1` |
+| Classifier scripts | `evelyns2000/foltz_tools:classifier2024` |
+| R scripts (scRNA / multiome) | `kaushalmadhurima/scrna_multiome` |
+
 **🧬 Bulk ATAC-seq scripts** 
  
-| Used for | Docker Image |
+| Used for | Image |
 |----------|-------|
 | Seurat v4.1 with DSB | `jafoltz/seuratv4.1withdsb` |
 | BigWig processing | `jafoltz/biggywiggy:1.0` |
