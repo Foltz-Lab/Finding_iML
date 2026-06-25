@@ -58,9 +58,9 @@ Full documentation is hosted online:
 | 3.10.14 | `Marsilea`, `PyDESeq2` |
 | 3.12.12 | `huCIRA` |
 
-**📊 R scripts** — version `4.5.2` / Docker: `kaushalmadhurima/scrna_multiome`
+**📊 R scripts** — local version `4.5.2` / Docker: `kaushalmadhurima/scrna_multiome`
 
-**🧬 Bulk ATAC-seq scripts** — Docker images:
+**🧬 Bulk ATAC-seq scripts** 
  
 | Used for | Image |
 |----------|-------|
