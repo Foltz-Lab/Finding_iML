@@ -62,7 +62,7 @@ Full documentation is hosted online:
 
 **🧬 Bulk ATAC-seq scripts** 
  
-| Used for | Image |
+| Used for | Docker Image |
 |----------|-------|
 | Seurat v4.1 with DSB | `jafoltz/seuratv4.1withdsb` |
 | BigWig processing | `jafoltz/biggywiggy:1.0` |
