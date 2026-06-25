@@ -60,6 +60,16 @@ Full documentation is hosted online:
 
 **📊 R scripts** — version `4.5.2` / Docker: `kaushalmadhurima/scrna_multiome`
 
+**🧬 Bulk ATAC-seq scripts** — Docker images:
+ 
+| Used for | Image |
+|----------|-------|
+| Seurat v4.1 with DSB | `jafoltz/seuratv4.1withdsb` |
+| BigWig processing | `jafoltz/biggywiggy:1.0` |
+| deepTools | `quay.io/biocontainers/deeptools:3.5.1--py_0` |
+| DiffBind | `naotokuboda/diffbind:3.2` |
+| UCSC BigWigMerge | `quay.io/biocontainers/ucsc-bigwigmerge:377--h446ed27_1` |
+
 ---
 
 ## 🔬 Classifier scripts
