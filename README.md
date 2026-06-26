@@ -64,7 +64,7 @@ Full documentation is hosted online:
  
 | Used for | Image |
 |----------|-------|
-| Seurat v4.1 with DSB | `jafoltz/seuratv4.1withdsb` |
+| R scripts | `jafoltz/seuratv4.1withdsb` |
 | BigWig processing | `jafoltz/biggywiggy:1.0` |
 | deepTools | `quay.io/biocontainers/deeptools:3.5.1--py_0` |
 | DiffBind | `naotokuboda/diffbind:3.2` |
